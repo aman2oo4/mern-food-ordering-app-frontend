@@ -9,6 +9,9 @@ const MobileNavLinks = () => {
         <Link to="/user-profile" className="flex bg-white items-center font-bold hover:text-orange-500">
             User Profile
         </Link>
+        <Link to="/manage-restaurant" className="font-bold hover:text-orange-500">
+            Manage Restaurant
+          </Link>
         <Button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })} className="flex px-3 items-center font-bold hover:bg-gray-500">
             Logout
         </Button>
